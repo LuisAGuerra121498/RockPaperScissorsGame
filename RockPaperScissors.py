@@ -1,3 +1,5 @@
+import random
+
 rock = '''
     _______
 ---'   ____)
@@ -27,3 +29,6 @@ scissors = '''
 
 #Write your code below this line 👇
 
+player1 = 
+
+computer = 
