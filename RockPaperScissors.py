@@ -30,6 +30,11 @@ playagain = ''
 #try to fix the infinite while loop, it appears that while loop is not set up correctly
 while playagain == 'Yes' or 'yes':
 
+<<<<<<< HEAD
+=======
+while playagain != 'Yes' or 'yes':
+
+>>>>>>> 1cec221356f96cc2663173c6e2c033dbdf9a2490
     player1 = int(input("Pick 1:rock,2:paper,3:scissors to play: "))
     computer = random.randint(1, 3)
 
