@@ -27,8 +27,8 @@ scissors = '''
 ---.__(___)
 '''
 playagain = ''
-
-while playagain != 'Yes' or 'yes':
+#try to fix the infinite while loop, it appears that while loop is not set up correctly
+while playagain == 'Yes' or 'yes':
 
     player1 = int(input("Pick 1:rock,2:paper,3:scissors to play: "))
     computer = random.randint(1, 3)
